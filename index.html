@@ -28,7 +28,7 @@ button{background:none;border:1px solid var(--c);color:var(--c);border-radius:10
 <div id="log"></div>
 <div id="bar"><input id="txt" placeholder="Type or tap the mic…"><button id="send">➤</button><button id="mic">🎙</button></div>
 <script>
-const MODEL="gemini-2.5-flash";
+const MODEL="gemini-3.8-flash";
 const $=id=>document.getElementById(id);
 let lang=localStorage.lang||"en",key=localStorage.key||"",history=[],notes=JSON.parse(localStorage.notes||"[]");
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
